@@ -50,7 +50,6 @@ def list_mstOftValue(listA) :
   if len(listA) == 0 :
     # Pas de valeur mode
     raise ValueError("Empty list.")
-    return value_count(0, 0)
 
   ## Cherche la valeur mode
   # Trie la liste par ordre croissant
@@ -71,7 +70,6 @@ def math_average(listA) :
   # Vérifie si la liste est vide
   if len(listA) == 0 :
     raise ValueError("Empty list.")
-    return 0
 
   # Calcule la moyenne
   sum=0
@@ -85,7 +83,6 @@ def math_min(listA) :
   # Vérifie si la liste est vide
   if len(listA) == 0 :
     raise ValueError("Empty list.")
-    return 0
 
   # Cherche la valeur minimale
   listA.sort()
@@ -96,7 +93,6 @@ def math_max(listA) :
   # Vérifie si la liste est vide
   if len(listA) == 0 :
     raise ValueError("Empty list.")
-    return 0
 
   # Cherche la valeur maximale
   listA.sort(reverse=True)
